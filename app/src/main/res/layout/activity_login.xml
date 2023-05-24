@@ -40,7 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        app:passwordToggleEnabled="true">
+        >
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_email"
@@ -57,6 +57,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:counterEnabled="true"
+        app:passwordToggleEnabled="true"
         app:counterMaxLength="10">
 
         <com.google.android.material.textfield.TextInputEditText
