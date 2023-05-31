@@ -21,6 +21,19 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:hint="Password" />
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="이름" />
+
+    <EditText
+        android:id="@+id/et_school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="학번" />
     <Button
         android:id="@+id/btn_register"
         android:layout_width="wrap_content"
